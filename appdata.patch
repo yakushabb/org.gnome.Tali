@@ -1,0 +1,13 @@
+--- a/data/org.gnome.Tali.appdata.xml.in	2019-09-13 01:29:36.366016742 +0200
++++ b/data/org.gnome.Tali.appdata.xml.in	2019-09-13 01:31:41.706701077 +0200
+@@ -31,6 +31,10 @@
+   <update_contact>mariowenzel_at_gnome.org</update_contact>
+   <project_group>GNOME</project_group>
+   <developer_name>The GNOME Project</developer_name>
++  <content_rating type="oars-1.1" />
++  <releases>
++    <release version="3.32.1" date="2019-08-08" />
++  </releases>
+   <provides>
+     <id>tali.desktop</id>
+   </provides>
