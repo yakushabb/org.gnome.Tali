@@ -14,10 +14,9 @@
         "name": "tali",
         "buildsystem": "meson",
         "sources": [{
-            "type": "git",
-            "url": "https://gitlab.gnome.org/GNOME/tali.git",
-            "commit": "3105390a694932bfb480e7463cd63e1fc3e418e1",
-            "tag": "3.36.0"
+            "type": "archive",
+            "url": "https://download.gnome.org/sources/tali/3.36/tali-3.36.1.tar.xz",
+            "sha256": "9e246b3bdd6960565d65f95934056cbfab08a8db3cc84f321535e49cc8ec96ce"
         }]
     }]
 }
