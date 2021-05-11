@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Tali",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "tali",
     "finish-args": [
@@ -11,12 +11,21 @@
         "--metadata=X-DConf=migrate-path=/org/gnome/Tali/"
     ],
     "modules": [{
-        "name": "tali",
-        "buildsystem": "meson",
-        "sources": [{
-            "type": "archive",
-            "url": "https://download.gnome.org/sources/tali/3.36/tali-3.36.1.tar.xz",
-            "sha256": "9e246b3bdd6960565d65f95934056cbfab08a8db3cc84f321535e49cc8ec96ce"
-        }]
+            "name": "libgnome-games-support",
+            "buildsystem": "meson",
+            "sources": [{
+                "type": "archive",
+                "url": "https://download.gnome.org/sources/libgnome-games-support/1.8/libgnome-games-support-1.8.1.tar.xz",
+                "sha256": "c37b7acd3ba7eb12207f5d7bb020535fa5783b0bd897e51b2bd629ce119a413f"
+            }]
+        },
+        {
+            "name": "tali",
+            "buildsystem": "meson",
+            "sources": [{
+                "type": "archive",
+                "url": "https://download.gnome.org/sources/tali/40/tali-40.0.tar.xz",
+                "sha256": "020332b397b07513d4e8e41af41b2a3e7c0de3a970ff839c346f8d27bd61f1a5"
+            }]
     }]
 }
