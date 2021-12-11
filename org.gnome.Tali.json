@@ -11,30 +11,36 @@
         "--device=dri",
         "--metadata=X-DConf=migrate-path=/org/gnome/Tali/"
     ],
-    "modules": [{
+    "modules": [
+        {
             "name": "libgnome-games-support",
             "buildsystem": "meson",
-            "sources": [{
-                "type": "archive",
-                "url": "https://download.gnome.org/sources/libgnome-games-support/1.8/libgnome-games-support-1.8.1.tar.xz",
-                "sha256": "c37b7acd3ba7eb12207f5d7bb020535fa5783b0bd897e51b2bd629ce119a413f",
-                "x-checker-data": {
-                    "type": "gnome",
-                    "name": "libgnome-games-support"
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libgnome-games-support/1.8/libgnome-games-support-1.8.2.tar.xz",
+                    "sha256": "28434604a7b038731ac0231731388ff104f565bb2330cc24e78cda04cfd3ef7d",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "libgnome-games-support"
+                    }
                 }
-            }]
+            ]
         },
         {
             "name": "tali",
             "buildsystem": "meson",
-            "sources": [{
-                "type": "archive",
-                "url": "https://download.gnome.org/sources/tali/40/tali-40.4.tar.xz",
-                "sha256": "02cacc76f4ee4230f67aa00ada194e9c548f89d27a0e72f200d8bd53aee71a17",
-                "x-checker-data": {
-                    "type": "gnome",
-                    "name": "tali"
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/tali/40/tali-40.4.tar.xz",
+                    "sha256": "02cacc76f4ee4230f67aa00ada194e9c548f89d27a0e72f200d8bd53aee71a17",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "tali"
+                    }
                 }
-            }]
-    }]
+            ]
+        }
+    ]
 }
