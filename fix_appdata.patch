@@ -1,0 +1,22 @@
+diff --git a/data/org.gnome.Tali.appdata.xml.in b/data/org.gnome.Tali.appdata.xml.in
+index e639450..99c6435 100644
+--- a/data/org.gnome.Tali.appdata.xml.in
++++ b/data/org.gnome.Tali.appdata.xml.in
+@@ -253,11 +253,15 @@
+   <launchable type="desktop-id">org.gnome.Tali.desktop</launchable>
+   <url type="homepage">https://wiki.gnome.org/Apps/Tali</url>
+   <url type="bugtracker">https://gitlab.gnome.org/GNOME/tali/issues</url>
+-  <url type="donation">https://www.gnome.org/friends/</url>
+-  <url type="translate">https://wiki.gnome.org/TranslationProject</url>
++  <url type="donation">https://www.gnome.org/donate/</url>
++  <url type="translate">https://l10n.gnome.org/module/tali/</url>
+   <url type="help">https://help.gnome.org/users/tali/stable/</url>
++  <url type="vcs-browser">https://gitlab.gnome.org/GNOME/tali</url>
+   <project_group>GNOME</project_group>
+   <developer_name>The GNOME Project</developer_name>
++  <developer id="org.gnome">
++    <name>The GNOME Project</name>
++  </developer>
+   <provides>
+     <id>tali.desktop</id>
+   </provides>
